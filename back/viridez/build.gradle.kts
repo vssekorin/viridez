@@ -2,8 +2,8 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import org.springframework.boot.gradle.tasks.bundling.BootJar
 
 plugins {
-	id("org.springframework.boot") version "3.3.0"
-	id("io.spring.dependency-management") version "1.1.5"
+	id("org.springframework.boot") version "3.3.2"
+	id("io.spring.dependency-management") version "1.1.6"
 
 	val kotlinVersion = "2.0.0"
 	kotlin("plugin.jpa") version kotlinVersion
